@@ -5,9 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>삽질은 한번만</title>
-    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="/node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
   </head>
   <body>
-    <h1>Bootstrap5</h1>
+    <!-- flex-column: 가장 작은 사이즈일때 세로정렬 -->
+    <!-- flex-md-row: 중간 사이즈 이상부터는 가로정렬 -->
+    <header
+      class="d-flex flex-column align-items-center flex-md-row p-3 bg-primary"
+    >
+      <!-- me-md-auto: 마진 끝부터 중간사이즈일때 자동정렬 -->
+      <h1 class="h5 my-0 me-md-auto">Bootstrap</h1>
+      <nav class="my-2 my-md-0 me-md-4">
+        <a href=""><i class="bi bi-award fs-5"></i></a>
+        <a href=""><i class="bi bi-check fs-5"></i></a>
+        <a href=""><i class="bi bi-check fs-5"></i></a>
+        <a href=""><i class="bi bi-check fs-5"></i></a>
+      </nav>
+    </header>
+    <section class="container">
+      <div class="p-3 pt-md-5 pb-md-4 text-center">
+        <h2 class="fs-1">Bootstrap</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est nisi
+          quaerat deleniti facere tempore maiores quod, et laborum at dolore
+          consequuntur quasi in odio. Quod earum aperiam nemo voluptas sint?
+        </p>
+      </div>
+      <div class="row g-3 md-5 text-center my-3">
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-header">JS</div>
+            <div class="card-body">
+              <h3 class="card-title text-primary">No jQuery</h3>
+              <ul class="list-unstyled my-4">
+                <li>no jQuery</li>
+                <li>jQuery slow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-header">JS</div>
+            <div class="card-body">
+              <h3 class="card-title text-primary">No jQuery</h3>
+              <ul class="list-unstyled my-4">
+                <li>no jQuery</li>
+                <li>jQuery slow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4">
+          <div class="card">
+            <div class="card-header">JS</div>
+            <div class="card-body">
+              <h3 class="card-title text-primary">No jQuery</h3>
+              <ul class="list-unstyled my-4">
+                <li>no jQuery</li>
+                <li>jQuery slow</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
