@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3",
+    "bootstrap-icons": "^1.5.0"
+  },
+  "name": "wdrk.github.io",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wdrk/wdrk.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdrk/wdrk.github.io/issues"
+  },
+  "homepage": "https://github.com/wdrk/wdrk.github.io#readme"
+}
